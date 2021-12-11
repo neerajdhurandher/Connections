@@ -1,0 +1,135 @@
+.main-contents {
+   width: 90%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.highlight-img {
+   width: 60%;
+   padding: 1rem;
+}
+.imgSlider{
+   height: 40vh;
+   margin: 5%;
+}
+
+.sliderimg{
+   width: 95%;
+   height: 30vh;
+   margin: 3%;
+   align-items: center;
+   object-fit: cover;
+   border-radius: 8px;
+ }
+ .typeWriterDiv{
+    margin-top: 3%;
+    margin-left: 6%;
+    align-items: center;
+    display: inline-flex;
+    background-color: #ffffff;
+    
+ }
+ .typeWriterDiv p{
+   font-size: 1.4em;
+   font-weight: 500;
+ }
+
+ .typeWriterText{
+      font-size: 1.5em;
+      font-style: oblique;
+      display: inline;
+      font-weight: 700;
+      font-size: 1.8em;
+      animation: changeTypeWriterTextColor 10s step-end infinite;
+ }
+
+ @keyframes changeTypeWriterTextColor {
+   0% {
+     color: red
+   }
+   25% {
+     color: green
+   }
+   50% {
+     color: orange
+   }
+   75% {
+     color: blue
+   }
+ }
+
+.login-contents {
+   display: flex;
+   width: 22rem;
+   flex-direction: column;
+   justify-content: center;
+   background-color: #ffffff;
+   border-radius: 12px;
+   margin-top: 3%;
+}
+.login-btn {
+   width: 18rem;
+   padding: 0.7rem 1rem;
+   margin: 2rem;
+   /* margin-top: 1rem; */
+   font-size: 1.3rem;
+   font-weight: 500;
+   cursor: pointer;
+   background-color: #1e88e5;
+   color: #ffffff;
+   border-style: none;
+   border-radius: 10px;
+   border-color: black;
+   transition: transform 300ms ease;
+}
+.login-btn:hover {
+   transform: scale(1.1);
+}
+.img-slider {
+   width: 95%;
+   height: 50vh;
+   margin: 10px;
+   border-radius: 5px;
+}
+.login-btn a {
+   color: aliceblue;
+}
+
+
+@media screen and (max-width: 768px) {
+   .highlight-img {
+      display: none;
+   }
+   .main-contents {
+      margin: auto;
+      margin-top: 1rem;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   }
+   .login-contents {
+      width: 18rem;
+    }
+    .login-btn {
+      width: 14rem;
+      font-size: 1.1rem;
+    }
+    .typeWriterDiv p{
+      font-size: 1.2em;
+    }
+    .typeWriterText{
+       font-size: 1.3em;
+    }
+    .rsis-container {
+      background-color: white;
+      width: 18rem  !important;
+      margin: 1rem 1rem ;
+
+   }
+   .rsis-image {   
+      padding: 2% !important; 
+        border-radius: 20px !important;
+    }
+
+    
+}

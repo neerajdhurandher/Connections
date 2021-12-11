@@ -1,0 +1,90 @@
+.popup-content {
+  margin: auto;
+  background: rgb(255, 255, 255);
+  width: 40%;
+  padding: 5px;
+  border-radius: 8px;
+}
+.popup-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+ .modal {
+    font-size: 12px;
+    color: black;
+    border-radius: 8px;
+    background-color: white;
+  }
+  .modal > .popupheader {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-size: 2.5em;
+    text-align: center;
+    padding: 5px;
+    color: #3AA3FB;
+    font-weight: 700;
+  }
+  .modal > .popupcontent {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    margin: 2%;
+    padding: 5 rem 5 rem;
+    border: 4px #3AA3FB solid;
+    border-radius: 8px;
+  }
+  .modal > .popupactions {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+  }
+ .button{
+   width: 10vh;
+   height: 5vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+   border-radius: 8px ;
+   color: white;
+   margin-bottom: 2%;
+   font-weight: 600;
+   font-size: 1.8em;
+   background-color: #3AA3FB;
+}
+.button:hover{
+   transform: scale(1.1);
+}
+  .help-title {
+    text-align: center;
+    font-size: 3rem;
+ }
+ .help {
+    margin: auto;
+    margin-top: 1rem;
+    width: 70%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1rem;
+ }
+ 
+ 
+ @media screen and (max-width: 900px) {
+  .popup-content{
+    width: 70%;
+  }
+ }
+ 
+ 
+  @media screen and (max-width: 508px) {
+ 
+
+ 
+  }
+  @media screen and (max-width: 450px) {
+ 
+ 
+ 
+  }

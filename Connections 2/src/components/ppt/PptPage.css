@@ -1,0 +1,50 @@
+.about-navbar {
+    height: 8vh;
+    background-color: #3AA3FB;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 500;
+ }
+ 
+ 
+ .about-navbar a {
+    background-color: #3AA3FB;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-left: 1rem;
+    position: fixed;
+    top: 0.8rem;
+    
+ }
+ .about-navbar a:hover {
+    transform: scale(1.05);
+    transition: 0.2s ease;
+    font-weight: 600;
+    margin-left: 0.5rem;
+ }
+ 
+ .header {
+    background-color: #3AA3FB;
+    color: white;
+    margin: auto;
+ }
+ .ppt-container {
+     display: flex;
+     justify-content: center;
+ }
+
+ @media screen and (max-width: 900px) {
+    
+    .about-navbar{
+       justify-content: flex-start;
+    }
+    .header{
+       left: 10%;
+       text-align: left;
+    }
+    .back{
+       display: none;
+    }
+ }

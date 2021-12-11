@@ -1,0 +1,42 @@
+.footer {
+   position: fixed;
+   width: 100%;
+   bottom: 0;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   background-color: beige;
+   padding: 0.3rem;
+}
+
+.footer p {
+   margin: 0.3rem;
+}
+.teamName{
+   font-size: 1.3em;
+   font-weight: 700;
+}
+.copyrighttext{
+   font-size: 1em;
+}
+.sorrytxt{
+   font-size: 0.8em;
+   font-weight: 600;
+
+}
+@media screen and (max-width: 768px) {
+   .footer p {
+      margin: 0.5rem;
+   }
+   .teamName{
+      font-size: 1em;
+      font-weight: 600;
+   }
+   .copyrighttext{
+      font-size: 0.8em;
+   }
+   .sorrytxt{
+      font-size: 0.6em;
+   
+   }
+}
